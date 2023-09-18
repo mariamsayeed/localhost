@@ -1,59 +1,22 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import homeImage from "../assets/hero.png";
+import city1 from "../assets/kolkata.png";
 export default function Hero() {
    
    
   return (
     <Section id="hero">
       <div className="background">
-        <img src={homeImage} alt="" />
+        <img src={city1} alt="" />
       </div>
       <div className="content">
         <div className="title">
-          <h1>Indulge in the vibrant colors and flavours of India</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-            natus, enim ipsam magnam odit deserunt itaque? Minima earum velit
-            tenetur!
-          </p>
+          <h1>Kolkata</h1>
+           <h2>The city of Joy</h2>
+          
         </div>
-        <div className="search">
-          <div className="container">
-            <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Where to?
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Kolkata</a></li>
-            <li><a className="dropdown-item" href="#">Mumbai</a></li>
-            
-            <li><a className="dropdown-item" href="#">Patna</a></li>
-          </ul>
-        </li>
-           
-          </div>
-          <div className="container">
-          <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Travel Type
-          </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Flight</a></li>
-            <li><a className="dropdown-item" href="#">Train</a></li>
-
-            <li><a className="dropdown-item" href="#">Ship</a></li>
-          </ul>
-        </li>
-            
-          </div>
-          <div className="container">
-            <label htmlFor="">Duration</label>
-            <input type="date" />
-          </div>
-          <button>Explore Now</button>
-        </div>
-      </div>
+       
+         </div>
     </Section>
   );
 }

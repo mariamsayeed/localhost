@@ -65,7 +65,7 @@ const Navbar = () => {
     </>
   );
 }
-export default Navbar;
+export default Navbar
 
 const Nav = styled.nav`
   display: flex;
